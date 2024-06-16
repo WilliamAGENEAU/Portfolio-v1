@@ -832,7 +832,7 @@ section:not(:last-child) h2::after {
 }
 
 .project_box label::after {
-    content: "plus"
+    content: "more"
 }
 
 .project_info {
@@ -842,7 +842,7 @@ section:not(:last-child) h2::after {
 }
 
 input[type=checkbox]:checked~.project_box label::after {
-    content: "moins"
+    content: "less"
 }
 
 input[type=checkbox]:checked~.project_info {
